@@ -16,15 +16,18 @@ int main()
   cout<<"\nEnter the position of shifting\n";
   cin>>pos;
 
-      if(pos>=n)
-      {
-          pos=pos-n;
-      }
+  if(pos>=n)
+  {
+      cout<<"\n Shifting not possible at this pos\n";
 
+  }
+  else
+    {
       for( i=0;i<n;i++)
       {
             a[i]=a[i+pos];
       }
+    }
 
 
 
